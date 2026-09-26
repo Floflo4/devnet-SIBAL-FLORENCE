@@ -21,7 +21,7 @@ def add_movie(movie_list):
     stats = str(input("Enter Status: ")) 
 
 
-    add_movie.append(tn,dr,stats)
+    movies.append(tn,dr,stats)
     movies.extend(movie_list)
 
 
