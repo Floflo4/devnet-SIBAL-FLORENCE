@@ -1,22 +1,22 @@
 """
 Module 2 — Lesson 2: Control Flow (if / elif / else)
-Student: [your name]
-Date: [date]
+Student: [Florence Z. Sibal]
+Date: [09/27/2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[Conditions in Python help a program make decisions by checking if something is true or false.]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- condition:
-- if / elif / else:
-- comparison operator:
-- boolean expression:
+- condition: A rule that Python checks before doing somethi
+- if / elif / else: Commands that tell Python what to do depending on the condition.
+- comparison operator: Symbols like >, <, and == that compare values.
+- boolean expression: Something that gives an answer of either True or False.
 (add more as needed)
 
 
@@ -27,19 +27,23 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+score = 92
+
+if score >= 75:
+    print("You passed!")
+else:
+    print("You need to improve.")
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[One mistake I want to avoid is mixing up = and == because = is used to assign a value, while == is used to check if two values are the same.?]
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+[Conditions are useful with loops because they help the program know when to continue running and when to stop]
 """
