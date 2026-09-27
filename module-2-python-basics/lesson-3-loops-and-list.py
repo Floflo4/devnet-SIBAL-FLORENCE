@@ -1,23 +1,23 @@
 """
 Module 2 — Lesson 3: Loops & Lists
-Student: [your name]
-Date: [date]
+Student: [Florence Z. Sibal]
+Date: [09/27/2026]
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
+[Lists and loops in Python make it easier to keep multiple pieces of information together and repeat tasks without having to write the same code again and again.]
 
 
 ============================================
 KEY VOCABULARY
 ============================================
-- list:
-- for loop:
-- while loop:
-- index:
-- iteration:
+- list: A collection of different values stored together.
+- for loop: A collection of different values stored together.
+- while loop: Repeats an action as long as a condition is true.
+- index: The position of an item in a list, starting from 0.
+- iteration: One complete repeat of a loop.
 (add more as needed)
 
 
@@ -28,19 +28,21 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+foods = ["balut", "isaw", "pares", "papaitan", "buro"]
+
+for food in foods:
+    print(food)
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
+[One mistake I want to avoid is forgetting that Python starts counting list positions from 0, so the first item is at position 0 instead of 1.]
 
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+[oLoops are helpful with lists because they let you check each item one by one without having to write the same thing over and over.]
 """
